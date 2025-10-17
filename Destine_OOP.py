@@ -9,10 +9,12 @@ class Student:
     # Method to display student info
     def display_info(self):
         return f"Name: {self.name}\nAge: {self.age}\nGrade: {self.__grade}"
+    
 
     # Getter for private grade
     def get_grade(self):
         return self.__grade
+
 
     # Setter for private grade
     def set_grade(self, new_grade):
